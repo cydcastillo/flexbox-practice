@@ -25,13 +25,20 @@ nav > li {
  #main-header {
     display: flex;
     flex-wrap: wrap;
+    flex: 1;
+    min-width: 400px;
     justify-content: center;
     font-size: 7rem;
-    padding: 5rem 10rem 15rem 10rem;
+    padding: 5rem 10rem 10px 10rem;
 }
 
-#main-header > p {
+header > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     font-size: 2rem;
+    padding-bottom: 13rem;
 }
 
 .flex-container {
