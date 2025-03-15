@@ -29,7 +29,7 @@ nav > li {
     min-width: 400px;
     justify-content: center;
     font-size: 5rem;
-    padding: 5rem 10rem 10px 10rem;
+    padding: 10rem 10rem 20rem 10rem;
 }
 
 #main-hero > p {
@@ -38,13 +38,12 @@ nav > li {
     align-items: center;
     width: 100%;
     font-size: 2rem;
-    margin-bottom: 13rem;
 }
 
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 4rem;
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 100rem;
@@ -57,7 +56,7 @@ nav > li {
     flex: 1;
     min-width: 350px;
     max-width: 400px;
-    box-shadow: 0px 0px 15px 7px #523d2b;
+    box-shadow: 0px 0px 15px 3px #523d2b;
 }
 
 .cat-profiles > img {
@@ -67,27 +66,44 @@ nav > li {
 }
 
 .cat-info {
-    text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
 }
 
+.cat-likes {
+    margin-top: 5rem;
+}
+
 .cat-info > .name {
+    margin-top: 20px;
     font-size: 2rem;
 }
 
-@media (max-width: 1000px) {
+.cat-info > p {
+    margin-bottom: 5px;
+}
+
+@media (min-width: 901px) and (max-width: 1000px) {
+    #main-hero > h1 {
+        font-size: 9rem;
+    }
+}
+
+@media (max-width: 900px) {
     #main-hero > h1 {
         font-size: 8rem;
     }
 
     #main-hero {
-        margin-bottom: 2rem;
+        padding-bottom: 10rem;
     }
 
     .flex-container {
         flex-direction: column;
+        justify-content: center;
         margin-bottom: 2rem;
         height: 100%;
     }
