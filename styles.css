@@ -96,13 +96,6 @@ nav > li {
         font-size: 3rem;
         padding-bottom: 10rem;
     }
-
-    .flex-container {
-        flex-direction: column;
-        justify-content: center;
-        margin-bottom: 2rem;
-        height: 100%;
-    }
 }
 
 @media (max-width: 791px) {
@@ -116,5 +109,12 @@ nav > li {
     #main-hero > p {
         text-align: center;
         font-size: 1.3rem;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 2rem;
+        height: 100%;
     }
 }
