@@ -36,7 +36,6 @@ nav > li {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
     font-size: 2rem;
 }
 
@@ -87,17 +86,14 @@ nav > li {
 }
 
 @media (min-width: 901px) and (max-width: 1000px) {
-    #main-hero > h1 {
-        font-size: 9rem;
+    #main-hero {
+        font-size: 4rem;
     }
 }
 
-@media (max-width: 900px) {
-    #main-hero > h1 {
-        font-size: 8rem;
-    }
-
+@media (min-width: 791px) and (max-width: 900px) {
     #main-hero {
+        font-size: 3rem;
         padding-bottom: 10rem;
     }
 
@@ -106,5 +102,19 @@ nav > li {
         justify-content: center;
         margin-bottom: 2rem;
         height: 100%;
+    }
+}
+
+@media (max-width: 791px) {
+    #main-hero {
+        min-width: 100px;
+        font-size: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 5rem;
+    }
+
+    #main-hero > p {
+        text-align: center;
+        font-size: 1.3rem;
     }
 }
